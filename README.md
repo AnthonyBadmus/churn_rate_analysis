@@ -1,8 +1,8 @@
-Introduction
+# Introduction
 
 This churn_rate_analysis notebook investigates customer churn for a beverage subscription service. The goal is to develop a machine learning model to predict customer churn and implement targeted retention strategies to minimize cancellations and ensure business sustainability.
 
-Data Description
+# Data Description
 
 The data includes customer information such as:
 
@@ -21,7 +21,7 @@ total_subscriptions (int64)
 payment_method (object)
 The data is assumed to be generated using Faker.
 
-Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 The EDA phase involves:
 
@@ -40,7 +40,7 @@ Correlation heatmap is generated to explore relationships between numerical vari
 Checking for Relationship Between Variables
 
 Correlation coefficients and p-values are calculated to assess the strength and significance of relationships between numerical variables and the target variable (subscription status).
-Data Preprocessing
+# Data Preprocessing
 
 Feature Engineering
 
@@ -64,7 +64,7 @@ Support Vector Machine (SVM)
 Performance metrics include accuracy, precision, recall, F1-score, and confusion matrix for each model.
 Predicting Customer Churn
 
-Data Preparation for New Customers
+# Data Preparation for New Customers
 
 New customer data is preprocessed similarly to the original data, including feature engineering and encoding categorical variables.
 Model Selection
@@ -76,7 +76,8 @@ The chosen model predicts the subscription status (active or cancelled) for the 
 Analysis of Predictions
 
 The predicted churn rate for new customers is calculated and presented.
-Findings and Conclusion
+
+# Findings and Conclusion
 
 The analysis reveals key insights into customer churn, including:
 
@@ -86,7 +87,7 @@ Gender disparity, employment status impact, monthly payment influence, and age-r
 No statistically significant relationships found between some numerical variables and subscription status (may require further investigation or model refinement)
 The Random Forest Classifier model predicts an 8.2% churn rate for new customers.
 
-Recommendations
+# Recommendations
 
 Based on the findings, the following recommendations are made:
 
