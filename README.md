@@ -9,7 +9,8 @@ Customer Demographics:
 - Age
 - Gender
 - Employment Status
-- Subscription Details:
+
+Subscription Details:
 - Subscription Start Date
 - Subscription End Date
 - Monthly Payment Amount
