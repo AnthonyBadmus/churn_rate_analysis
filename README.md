@@ -38,7 +38,7 @@ Correlation analysis was performed to assess the relationship between variables.
 # Predictive Modeling
 Machine learning models, including Random Forest and Support Vector Machines, were trained on the historical data to predict customer churn. These models prioritized high recall to effectively identify customers at risk of canceling.
 
-Predicting Churn for New Customers
+# Predicting Churn for New Customers
 The Random Forest model predicted an 8.2% churn rate for new customers. This insight can be used to proactively implement retention strategies and minimize future churn.
 
 # Conclusion
